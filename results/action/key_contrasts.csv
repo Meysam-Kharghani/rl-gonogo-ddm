@@ -1,0 +1,6 @@
+analysis_family,model,reference,n_subjects,mean_subject_delta_elpd,bootstrap_ci_low,bootstrap_ci_high,positive_subjects,total_delta_elpd,label
+cross_fitted_action_occurrence,actor_control_plus_compact_lagged_history,compact_lagged_history,40,1.126200413431654,0.4379427972022006,1.8049923302233453,26,45.048016537266165,Actor/control + lagged history vs lagged history
+cross_fitted_action_occurrence,full_rl_plus_compact_lagged_history,actor_control_plus_compact_lagged_history,40,0.0635513941026779,-0.2439466684181631,0.3780737349900194,21,2.5420557641071184,Policy beyond actor/control + lagged history
+cross_fitted_action_occurrence,full_rl_plus_compact_lagged_history,policy_plus_compact_lagged_history,40,0.587753340444603,0.2676683371074167,0.9287603888988336,25,23.51013361778412,Actor/control beyond policy + lagged history
+cross_fitted_action_occurrence,policy_plus_compact_lagged_history,compact_lagged_history,40,0.601998467089729,-0.1102432798497446,1.2929856972283722,25,24.07993868358916,Policy + lagged history vs lagged history
+cross_fitted_action_occurrence,full_rl_plus_compact_lagged_history,compact_lagged_history,40,1.189751807534332,0.5422809831035894,1.85644363064842,27,47.59007230137328,Total RL information beyond lagged history
