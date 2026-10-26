@@ -1,0 +1,43 @@
+{
+  "nested_script": "shared/rl/nested_crossvalidated_latent_generation.py",
+  "rl_script": "shared/rl/actor_control_model_family.py",
+  "ddm_script": "shared/ddm/one_boundary_diffusion.py",
+  "rl_out": "controlled_inputs/rl_crossvalidated_posteriors",
+  "data_root": "controlled_inputs/behavioral_trial_data",
+  "cue_probabilities": "configs/instructed_cue_probabilities.json",
+  "out": "results/robustness/analytic_horizon_sensitivity/horizon_650ms",
+  "rl_variant": "M6",
+  "seed": 2026,
+  "k": 5,
+  "folds_run": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "max_rl_draws": 300,
+  "variants": [
+    "D6",
+    "D14",
+    "D15",
+    "D9"
+  ],
+  "n_starts": 6,
+  "l2": 0.0001,
+  "deadline_ms": 650.0,
+  "rt_min_ms": 100.0,
+  "rt_max_ms": 650.0,
+  "late_press_handling": "Presses after deadline are retained and right-censored at the fixed analytic horizon; only missing-RT or anticipatory press trials are excluded.",
+  "empirical_belief_construction": "Instructed and empirical cue representations are computed on the complete pre-filter trial sequence. Likelihood-specific RT exclusions and horizon censoring therefore do not remove preceding cue/target observations from the strictly lagged empirical update.",
+  "t0_min": 0.03,
+  "t0_max": 0.03,
+  "dist_min": 0.05,
+  "horizons": [
+    0
+  ],
+  "n_bootstrap": 10000,
+  "n_subjects_total": 40,
+  "strict_outer_fold_definition": "For each RL outer fold, both train and test latent trajectories were generated from that fold's train-only RL posterior. DDM parameters were fitted on outer-train subjects and evaluated only on untouched outer-test subjects.",
+  "public_path_normalization_note": "Nonportable absolute paths from the executed run were replaced by public package-relative or controlled-input references; numerical settings/results are unchanged."
+}

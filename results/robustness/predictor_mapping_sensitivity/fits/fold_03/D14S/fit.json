@@ -1,0 +1,233 @@
+{
+  "variant": "D14S",
+  "variant_name": "actor_control_history_swapped",
+  "success": true,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "nll": 597.973096187195,
+  "loglik": -597.973096187195,
+  "n_params": 20,
+  "n_trials": 11749,
+  "aic": 1235.94619237439,
+  "bic": 1383.3766605657415,
+  "theta": [
+    2.6294322932908587,
+    -2.4022511607795654,
+    0.007830051031605018,
+    -0.026451120749351045,
+    0.23767010006378372,
+    -0.3008988542875306,
+    -0.20300901756887427,
+    0.8516702191988962,
+    -0.6624507324342934,
+    0.8842201150851658,
+    -0.6335179146461196,
+    -0.08232229874932888,
+    -0.08940684257093061,
+    0.06337457600785089,
+    -0.13235141001165818,
+    0.05210487441502213,
+    -0.10996498510195833,
+    0.3630022539956905,
+    -0.613698608284986,
+    0.0
+  ],
+  "design": {
+    "drift_cols": [
+      "intercept",
+      "is_nogo",
+      "cue_up",
+      "cue_bi",
+      "group_high",
+      "control_z",
+      "prev_press",
+      "prior_press_rate_z",
+      "prior_fa_rate_z"
+    ],
+    "dist_cols": [
+      "intercept",
+      "is_nogo",
+      "cue_up",
+      "cue_bi",
+      "group_high",
+      "prev_error",
+      "prev_fa",
+      "actor_qdiff_z",
+      "prior_press_rate_z",
+      "prior_fa_rate_z"
+    ],
+    "t0_cols": [
+      "intercept"
+    ],
+    "standardization": {
+      "control_z": {
+        "source": "control_current",
+        "mean": 0.23485389757926312,
+        "sd": 0.1675855223584837
+      },
+      "actor_qdiff_z": {
+        "source": "actor_qdiff_current",
+        "mean": 0.37353445002315544,
+        "sd": 0.26164074382739005
+      },
+      "p_press_z": {
+        "source": "p_press",
+        "mean": 0.6950369670513024,
+        "sd": 0.1846372571328366
+      },
+      "belief_z": {
+        "source": "belief_nogo_current",
+        "mean": 0.5,
+        "sd": 1.0
+      },
+      "assoc_z": {
+        "source": "associability_current",
+        "mean": 0.0,
+        "sd": 1.0
+      },
+      "cnv_z_global": {
+        "source": "cnv_z",
+        "mean": -0.0013490538219505226,
+        "sd": 1.0031127192711
+      },
+      "p300_z_global": {
+        "source": "p300_z",
+        "mean": -0.0032171456641892477,
+        "sd": 1.0023464193904943
+      },
+      "prior_press_rate_z": {
+        "source": "prior_press_rate",
+        "mean": 0.691959674483299,
+        "sd": 0.12716866161838483
+      },
+      "prior_fa_rate_z": {
+        "source": "prior_fa_rate",
+        "mean": 0.4055363543311598,
+        "sd": 0.2002893597228475
+      },
+      "train_bin_press_rate_z": {
+        "source": "train_bin_press_rate",
+        "mean": 0.6710412234611517,
+        "sd": 0.1799153066488077
+      },
+      "train_bin_fa_rate_z": {
+        "source": "train_bin_fa_rate",
+        "mean": 0.46601449915565085,
+        "sd": 0.06387474770223071
+      },
+      "p_press_shuf_z": {
+        "source": "p_press_shuffled",
+        "mean": 0.6950369670513025,
+        "sd": 0.18463725713283663
+      },
+      "instructed_nogo_prob_z": {
+        "source": "instructed_nogo_prob",
+        "mean": 0.24737594688909695,
+        "sd": 0.12641693317885733
+      },
+      "instructed_nogo_logit_z": {
+        "source": "instructed_nogo_logit",
+        "mean": -1.2470566421127447,
+        "sd": 0.7281529153006134
+      },
+      "empirical_nogo_prob_z": {
+        "source": "empirical_nogo_prob",
+        "mean": 0.2444594140460684,
+        "sd": 0.11703227658698753
+      },
+      "empirical_nogo_logit_z": {
+        "source": "empirical_nogo_logit",
+        "mean": -1.2447098096118383,
+        "sd": 0.6752158801738741
+      }
+    },
+    "residualized_policy": {
+      "predictors": [
+        "intercept",
+        "is_nogo",
+        "cue_up",
+        "cue_bi",
+        "group_high",
+        "prev_error",
+        "prev_press",
+        "prior_press_rate_z",
+        "prior_fa_rate_z"
+      ],
+      "beta": [
+        0.7955780253579531,
+        -0.40374477509971696,
+        -0.027399917573123322,
+        0.003462643721694806,
+        0.043054294950511385,
+        -0.05463535379274803,
+        0.003556637756217118,
+        0.01359944731538194,
+        -0.008895949590350337
+      ],
+      "resid_mean": -3.0843203271567885e-16,
+      "resid_sd": 0.03264884604370267
+    },
+    "placebo_policy": {
+      "method": "deterministic rotation within subject x cue x target bins",
+      "source": "p_press",
+      "column": "p_press_shuf_z"
+    },
+    "train_fold_behavioral_rates": {
+      "keys": [
+        "group_high",
+        "cue_label_ddm",
+        "is_nogo"
+      ],
+      "n_bins": 12,
+      "global_press_rate": 0.6711063829787234,
+      "global_fa_rate": 0.36086956521739133,
+      "smoothing": "Laplace: (count + 0.5)/(n + 1)"
+    }
+  },
+  "optimizer_history": [
+    {
+      "start": 0,
+      "success": true,
+      "fun": 597.973096187195,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 1,
+      "success": true,
+      "fun": 597.9731083949462,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 2,
+      "success": true,
+      "fun": 597.9731126487602,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 3,
+      "success": true,
+      "fun": 597.973096930183,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 4,
+      "success": true,
+      "fun": 597.9731080529172,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 5,
+      "success": true,
+      "fun": 597.9731110705021,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  ],
+  "settings": {
+    "deadline_ms": 700,
+    "n_starts": 6,
+    "seed": 2097386220,
+    "l2": 0.0001,
+    "t0_min": 0.03,
+    "t0_max": 0.03,
+    "dist_min": 0.05
+  }
+}

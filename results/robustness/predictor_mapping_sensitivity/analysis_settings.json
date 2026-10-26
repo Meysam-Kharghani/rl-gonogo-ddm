@@ -1,0 +1,35 @@
+{
+  "variants": [
+    "D6",
+    "D14",
+    "D14S",
+    "D15",
+    "D15S",
+    "D9",
+    "D9S",
+    "D9X"
+  ],
+  "planned_contrasts": [
+    [
+      "D14S",
+      "D14"
+    ],
+    [
+      "D15S",
+      "D15"
+    ],
+    [
+      "D9S",
+      "D9"
+    ],
+    [
+      "D9X",
+      "D9"
+    ]
+  ],
+  "deadline_ms": 700,
+  "rt_min_ms": 100,
+  "t0_ms": 30,
+  "max_rl_draws": 300,
+  "status": "claim-dependent sensitivity; no post-hoc model promotion"
+}

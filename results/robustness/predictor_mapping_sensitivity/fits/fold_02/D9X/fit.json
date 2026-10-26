@@ -1,0 +1,241 @@
+{
+  "variant": "D9X",
+  "variant_name": "full_hybrid_crossloaded",
+  "success": true,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "nll": 448.92886879069954,
+  "loglik": -448.92886879069954,
+  "n_params": 24,
+  "n_trials": 11845,
+  "aic": 945.8577375813991,
+  "bic": 1122.9696043796284,
+  "theta": [
+    3.3082508766051872,
+    -6.0,
+    0.344186754718136,
+    0.12163696475531392,
+    0.35837796431295743,
+    0.36789593003118193,
+    -1.6547397715693182,
+    -0.8593595441900844,
+    -0.11514335412891101,
+    0.7332938212574958,
+    -0.4695130084686709,
+    1.4158335633387262,
+    -3.759803184875948,
+    0.2419486061898796,
+    0.10468380653440901,
+    0.270690923077048,
+    -0.05980817652090735,
+    0.12758793250853412,
+    -0.47686930486136475,
+    0.21821476026924647,
+    -1.4098081635206745,
+    0.24546571414494953,
+    -0.5080960218806041,
+    0.0010479933958443728
+  ],
+  "design": {
+    "drift_cols": [
+      "intercept",
+      "is_nogo",
+      "cue_up",
+      "cue_bi",
+      "group_high",
+      "actor_qdiff_z",
+      "p_press_z",
+      "control_z",
+      "prev_press",
+      "prior_press_rate_z",
+      "prior_fa_rate_z"
+    ],
+    "dist_cols": [
+      "intercept",
+      "is_nogo",
+      "cue_up",
+      "cue_bi",
+      "group_high",
+      "prev_error",
+      "prev_fa",
+      "control_z",
+      "actor_qdiff_z",
+      "p_press_z",
+      "prior_press_rate_z",
+      "prior_fa_rate_z"
+    ],
+    "t0_cols": [
+      "intercept"
+    ],
+    "standardization": {
+      "control_z": {
+        "source": "control_current",
+        "mean": 0.24270474404434533,
+        "sd": 0.17846907123718955
+      },
+      "actor_qdiff_z": {
+        "source": "actor_qdiff_current",
+        "mean": 0.3811107912521424,
+        "sd": 0.28019651526762657
+      },
+      "p_press_z": {
+        "source": "p_press",
+        "mean": 0.6926411901688443,
+        "sd": 0.1819721577465464
+      },
+      "belief_z": {
+        "source": "belief_nogo_current",
+        "mean": 0.5,
+        "sd": 1.0
+      },
+      "assoc_z": {
+        "source": "associability_current",
+        "mean": 0.0,
+        "sd": 1.0
+      },
+      "cnv_z_global": {
+        "source": "cnv_z",
+        "mean": -0.0007066272456162533,
+        "sd": 1.0025011859489097
+      },
+      "p300_z_global": {
+        "source": "p300_z",
+        "mean": -0.0025068433338604973,
+        "sd": 1.002681247144079
+      },
+      "prior_press_rate_z": {
+        "source": "prior_press_rate",
+        "mean": 0.692695523902999,
+        "sd": 0.13300284051403968
+      },
+      "prior_fa_rate_z": {
+        "source": "prior_fa_rate",
+        "mean": 0.41756687522132646,
+        "sd": 0.2008907273465764
+      },
+      "train_bin_press_rate_z": {
+        "source": "train_bin_press_rate",
+        "mean": 0.6686437644445087,
+        "sd": 0.16974199412376062
+      },
+      "train_bin_fa_rate_z": {
+        "source": "train_bin_fa_rate",
+        "mean": 0.47021160688232144,
+        "sd": 0.06103420579394824
+      },
+      "p_press_shuf_z": {
+        "source": "p_press_shuffled",
+        "mean": 0.6926411901688443,
+        "sd": 0.1819721577465464
+      },
+      "instructed_nogo_prob_z": {
+        "source": "instructed_nogo_prob",
+        "mean": 0.24710173068805405,
+        "sd": 0.12641613273896438
+      },
+      "instructed_nogo_logit_z": {
+        "source": "instructed_nogo_logit",
+        "mean": -1.2486547911334558,
+        "sd": 0.7281718488833123
+      },
+      "empirical_nogo_prob_z": {
+        "source": "empirical_nogo_prob",
+        "mean": 0.24421488961440713,
+        "sd": 0.11699761495423915
+      },
+      "empirical_nogo_logit_z": {
+        "source": "empirical_nogo_logit",
+        "mean": -1.2460859089362062,
+        "sd": 0.6751020077025853
+      }
+    },
+    "residualized_policy": {
+      "predictors": [
+        "intercept",
+        "is_nogo",
+        "cue_up",
+        "cue_bi",
+        "group_high",
+        "prev_error",
+        "prev_press",
+        "prior_press_rate_z",
+        "prior_fa_rate_z"
+      ],
+      "beta": [
+        0.7897958594863171,
+        -0.3952281051006611,
+        -0.02138800192936341,
+        -0.009921914096952589,
+        0.050015454062596804,
+        -0.07207196618903355,
+        0.0049519579036799155,
+        0.01928652087983091,
+        -0.01576201191849407
+      ],
+      "resid_mean": 1.3489514369274168e-16,
+      "resid_sd": 0.03465057135296349
+    },
+    "placebo_policy": {
+      "method": "deterministic rotation within subject x cue x target bins",
+      "source": "p_press",
+      "column": "p_press_shuf_z"
+    },
+    "train_fold_behavioral_rates": {
+      "keys": [
+        "group_high",
+        "cue_label_ddm",
+        "is_nogo"
+      ],
+      "n_bins": 12,
+      "global_press_rate": 0.6687067364511228,
+      "global_fa_rate": 0.37827134986225897,
+      "smoothing": "Laplace: (count + 0.5)/(n + 1)"
+    }
+  },
+  "optimizer_history": [
+    {
+      "start": 0,
+      "success": true,
+      "fun": 448.9289050044563,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 1,
+      "success": true,
+      "fun": 448.92919418353193,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 2,
+      "success": true,
+      "fun": 448.92886893791496,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 3,
+      "success": true,
+      "fun": 455.80085882537657,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 4,
+      "success": true,
+      "fun": 448.92886879069954,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 5,
+      "success": true,
+      "fun": 448.9288818827412,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  ],
+  "settings": {
+    "deadline_ms": 700,
+    "n_starts": 6,
+    "seed": 3824393984,
+    "l2": 0.0001,
+    "t0_min": 0.03,
+    "t0_max": 0.03,
+    "dist_min": 0.05
+  }
+}

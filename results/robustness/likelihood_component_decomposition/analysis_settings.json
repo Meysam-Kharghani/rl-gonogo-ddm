@@ -1,0 +1,21 @@
+{
+  "status": "no-refit diagnostic using frozen primary 700-ms fits generated with 300 posterior draws per fold",
+  "fit_root": "results/ddm/primary_fit_artifacts",
+  "seed": 2026,
+  "max_rl_draws": 300,
+  "variants": [
+    "D6",
+    "D14",
+    "D15",
+    "D9"
+  ],
+  "strata": [
+    "overall",
+    "target_class",
+    "likelihood_type",
+    "target_x_likelihood",
+    "censor_type"
+  ],
+  "n_bootstrap": 10000,
+  "public_path_normalization_note": "Nonportable absolute paths from the executed run were replaced by public package-relative or controlled-input references; numerical settings/results are unchanged."
+}
