@@ -1,0 +1,4 @@
+variant,variant_name,mean_total_elpd,sd_total_elpd,n_seeds
+M6,actor_control_rl,-7684.849451219345,13.026033130544091,2
+M7,actor_control_plus_volatility,-7686.0968943257485,8.670014947517075,2
+M2,post_error_control,-7730.892405356037,10.907922158653422,2

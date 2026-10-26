@@ -1,0 +1,42 @@
+{
+  "observed": {
+    "press": 0.6913815789473684,
+    "hit": 0.7926829268292683,
+    "fa": 0.3787634408602151
+  },
+  "predicted": {
+    "press": 0.6967558699498879,
+    "hit": 0.7982114615820277,
+    "fa": 0.38366173233242445
+  },
+  "by_group": {
+    "low": {
+      "observed_press": 0.6794736842105263,
+      "predicted_press": 0.6841710040810345,
+      "observed_fa": 0.35053763440860214,
+      "predicted_fa": 0.35853689952003576,
+      "observed_hit": 0.7860627177700349,
+      "predicted_hit": 0.789690069322055
+    },
+    "high": {
+      "observed_press": 0.7032894736842106,
+      "predicted_press": 0.7093407358187414,
+      "observed_fa": 0.40698924731182795,
+      "predicted_fa": 0.40878656514481326,
+      "observed_hit": 0.7993031358885018,
+      "predicted_hit": 0.8067328538420003
+    }
+  },
+  "abs_error": {
+    "press": 0.005374291002519516,
+    "hit": 0.005528534752759384,
+    "fa": 0.004898291472209382
+  },
+  "fa_gap": {
+    "observed_high_minus_low": 0.05645161290322581,
+    "predicted_high_minus_low": 0.050249665624777506
+  },
+  "time": "2026-05-13 20:55:25",
+  "variant": "M3",
+  "variant_name": "belief_plus_control"
+}

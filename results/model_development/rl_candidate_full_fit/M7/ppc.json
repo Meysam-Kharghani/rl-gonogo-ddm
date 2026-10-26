@@ -1,0 +1,42 @@
+{
+  "observed": {
+    "press": 0.6913815789473684,
+    "hit": 0.7926829268292683,
+    "fa": 0.3787634408602151
+  },
+  "predicted": {
+    "press": 0.6933563847072476,
+    "hit": 0.7953042887190199,
+    "fa": 0.3787429604988749
+  },
+  "by_group": {
+    "low": {
+      "observed_press": 0.6794736842105263,
+      "predicted_press": 0.6807585498782354,
+      "observed_fa": 0.35053763440860214,
+      "predicted_fa": 0.35369918291892594,
+      "observed_hit": 0.7860627177700349,
+      "predicted_hit": 0.7867394597291614
+    },
+    "high": {
+      "observed_press": 0.7032894736842106,
+      "predicted_press": 0.7059542195362598,
+      "observed_fa": 0.40698924731182795,
+      "predicted_fa": 0.40378673807882387,
+      "observed_hit": 0.7993031358885018,
+      "predicted_hit": 0.8038691177088783
+    }
+  },
+  "abs_error": {
+    "press": 0.0019748057598791835,
+    "hit": 0.0026213618897515945,
+    "fa": 2.0480361340169395e-05
+  },
+  "fa_gap": {
+    "observed_high_minus_low": 0.05645161290322581,
+    "predicted_high_minus_low": 0.050087555159897934
+  },
+  "time": "2026-05-14 02:57:50",
+  "variant": "M7",
+  "variant_name": "actor_control_plus_volatility"
+}

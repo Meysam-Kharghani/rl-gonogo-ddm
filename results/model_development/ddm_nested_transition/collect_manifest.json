@@ -1,0 +1,11 @@
+{
+  "roots": [
+    "results/nested_rl_ddm/M6_seed2026",
+    "results/nested_rl_ddm/M6_seed7777",
+    "results/nested_rl_ddm/M7_seed2026",
+    "results/nested_rl_ddm/M7_seed7777"
+  ],
+  "n_cv_tables": 64,
+  "n_fold_rows": 320,
+  "notes": "Use all_cv_ranked.csv to verify whether D2 remains top across nested/sensitivity configurations."
+}

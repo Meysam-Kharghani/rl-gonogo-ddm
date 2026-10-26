@@ -1,0 +1,42 @@
+{
+  "observed": {
+    "press": 0.6913815789473684,
+    "hit": 0.7926829268292683,
+    "fa": 0.3787634408602151
+  },
+  "predicted": {
+    "press": 0.6948663482825884,
+    "hit": 0.7964243394984343,
+    "fa": 0.3814562033476663
+  },
+  "by_group": {
+    "low": {
+      "observed_press": 0.6794736842105263,
+      "predicted_press": 0.6831553325703946,
+      "observed_fa": 0.35053763440860214,
+      "predicted_fa": 0.3569370216336238,
+      "observed_hit": 0.7860627177700349,
+      "predicted_hit": 0.7888637051039128
+    },
+    "high": {
+      "observed_press": 0.7032894736842106,
+      "predicted_press": 0.7065773639947821,
+      "observed_fa": 0.40698924731182795,
+      "predicted_fa": 0.40597538506170866,
+      "observed_hit": 0.7993031358885018,
+      "predicted_hit": 0.8039849738929558
+    }
+  },
+  "abs_error": {
+    "press": 0.003484769335220017,
+    "hit": 0.0037414126691659444,
+    "fa": 0.0026927624874512057
+  },
+  "fa_gap": {
+    "observed_high_minus_low": 0.05645161290322581,
+    "predicted_high_minus_low": 0.049038363428084875
+  },
+  "time": "2026-05-13 21:54:31",
+  "variant": "M4",
+  "variant_name": "volatility_belief_learning"
+}

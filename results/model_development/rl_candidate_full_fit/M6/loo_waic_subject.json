@@ -1,0 +1,11 @@
+{
+  "time": "2026-05-14 00:31:37",
+  "notes": "PSIS/WAIC are diagnostic only; use subject-level K-fold CV for model comparison.",
+  "elpd_loo": -7622.332566296459,
+  "p_loo": 110.28162825587333,
+  "elpd_waic": -7604.657940552941,
+  "p_waic": 92.60700251235568,
+  "pareto_k_max": 1.393309998882886,
+  "pareto_k_frac_gt_0_7": 1.0,
+  "psis_reliable": false
+}

@@ -1,0 +1,42 @@
+{
+  "observed": {
+    "press": 0.6913815789473684,
+    "hit": 0.7926829268292683,
+    "fa": 0.3787634408602151
+  },
+  "predicted": {
+    "press": 0.6927147171285061,
+    "hit": 0.7950340183159746,
+    "fa": 0.37695515324889906
+  },
+  "by_group": {
+    "low": {
+      "observed_press": 0.6794736842105263,
+      "predicted_press": 0.6796493285601077,
+      "observed_fa": 0.35053763440860214,
+      "predicted_fa": 0.35156808430257924,
+      "observed_hit": 0.7860627177700349,
+      "predicted_hit": 0.7859613693822338
+    },
+    "high": {
+      "observed_press": 0.7032894736842106,
+      "predicted_press": 0.7057801056969045,
+      "observed_fa": 0.40698924731182795,
+      "predicted_fa": 0.402342222195219,
+      "observed_hit": 0.7993031358885018,
+      "predicted_hit": 0.8041066672497155
+    }
+  },
+  "abs_error": {
+    "press": 0.001333138181137672,
+    "hit": 0.0023510914867063137,
+    "fa": 0.0018082876113160173
+  },
+  "fa_gap": {
+    "observed_high_minus_low": 0.05645161290322581,
+    "predicted_high_minus_low": 0.05077413789263974
+  },
+  "time": "2026-05-14 00:31:37",
+  "variant": "M6",
+  "variant_name": "actor_control_rl"
+}

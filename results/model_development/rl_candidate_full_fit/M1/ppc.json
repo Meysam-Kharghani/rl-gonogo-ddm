@@ -1,0 +1,42 @@
+{
+  "observed": {
+    "press": 0.6913815789473684,
+    "hit": 0.7926829268292683,
+    "fa": 0.3787634408602151
+  },
+  "predicted": {
+    "press": 0.6981770744978518,
+    "hit": 0.7995978352595817,
+    "fa": 0.38519042569552475
+  },
+  "by_group": {
+    "low": {
+      "observed_press": 0.6794736842105263,
+      "predicted_press": 0.6856447272068757,
+      "observed_fa": 0.35053763440860214,
+      "predicted_fa": 0.3604664695512459,
+      "observed_hit": 0.7860627177700349,
+      "predicted_hit": 0.7910160789907559
+    },
+    "high": {
+      "observed_press": 0.7032894736842106,
+      "predicted_press": 0.7107094217888279,
+      "observed_fa": 0.40698924731182795,
+      "predicted_fa": 0.4099143818398036,
+      "observed_hit": 0.7993031358885018,
+      "predicted_hit": 0.8081795915284072
+    }
+  },
+  "abs_error": {
+    "press": 0.006795495550483421,
+    "hit": 0.006914908430313393,
+    "fa": 0.006426984835309679
+  },
+  "fa_gap": {
+    "observed_high_minus_low": 0.05645161290322581,
+    "predicted_high_minus_low": 0.049447912288557716
+  },
+  "time": "2026-05-13 19:36:05",
+  "variant": "M1",
+  "variant_name": "cue_belief_learning"
+}

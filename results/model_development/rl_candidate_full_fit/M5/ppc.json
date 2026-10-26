@@ -1,0 +1,42 @@
+{
+  "observed": {
+    "press": 0.6913815789473684,
+    "hit": 0.7926829268292683,
+    "fa": 0.3787634408602151
+  },
+  "predicted": {
+    "press": 0.7162120597476279,
+    "hit": 0.8146349501866033,
+    "fa": 0.41247690323165037
+  },
+  "by_group": {
+    "low": {
+      "observed_press": 0.6794736842105263,
+      "predicted_press": 0.7096560034658701,
+      "observed_fa": 0.35053763440860214,
+      "predicted_fa": 0.39286564109006017,
+      "observed_hit": 0.7860627177700349,
+      "predicted_hit": 0.812309326465697
+    },
+    "high": {
+      "observed_press": 0.7032894736842106,
+      "predicted_press": 0.7227681160293858,
+      "observed_fa": 0.40698924731182795,
+      "predicted_fa": 0.43208816537324074,
+      "observed_hit": 0.7993031358885018,
+      "predicted_hit": 0.8169605739075095
+    }
+  },
+  "abs_error": {
+    "press": 0.024830480800259513,
+    "hit": 0.021952023357334927,
+    "fa": 0.0337134623714353
+  },
+  "fa_gap": {
+    "observed_high_minus_low": 0.05645161290322581,
+    "predicted_high_minus_low": 0.03922252428318057
+  },
+  "time": "2026-05-13 22:50:13",
+  "variant": "M5",
+  "variant_name": "asymmetric_belief_learning"
+}

@@ -1,0 +1,7 @@
+seed,variant,variant_name,total_elpd,k
+2026,M2,post_error_control,-7723.179339628999,5
+2026,M6,actor_control_rl,-7675.638654860777,5
+2026,M7,actor_control_plus_volatility,-7679.966267963371,5
+7777,M2,post_error_control,-7738.605471083076,5
+7777,M6,actor_control_rl,-7694.060247577913,5
+7777,M7,actor_control_plus_volatility,-7692.227520688127,5

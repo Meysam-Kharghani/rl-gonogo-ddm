@@ -1,0 +1,42 @@
+{
+  "observed": {
+    "press": 0.6913815789473684,
+    "hit": 0.7926829268292683,
+    "fa": 0.3787634408602151
+  },
+  "predicted": {
+    "press": 0.6909136894752261,
+    "hit": 0.7923185006358314,
+    "fa": 0.37797626148497065
+  },
+  "by_group": {
+    "low": {
+      "observed_press": 0.6794736842105263,
+      "predicted_press": 0.6785455259007227,
+      "observed_fa": 0.35053763440860214,
+      "predicted_fa": 0.3527032774840076,
+      "observed_hit": 0.7860627177700349,
+      "predicted_hit": 0.7841320384538744
+    },
+    "high": {
+      "observed_press": 0.7032894736842106,
+      "predicted_press": 0.7032818530497295,
+      "observed_fa": 0.40698924731182795,
+      "predicted_fa": 0.40324924548593366,
+      "observed_hit": 0.7993031358885018,
+      "predicted_hit": 0.8005049628177888
+    }
+  },
+  "abs_error": {
+    "press": 0.00046788947214226884,
+    "hit": 0.0003644261934369064,
+    "fa": 0.0007871793752444178
+  },
+  "fa_gap": {
+    "observed_high_minus_low": 0.05645161290322581,
+    "predicted_high_minus_low": 0.05054596800192607
+  },
+  "time": "2026-05-13 20:08:00",
+  "variant": "M2",
+  "variant_name": "post_error_control"
+}

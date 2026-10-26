@@ -1,0 +1,53 @@
+{
+  "time": "2026-06-06 21:55:10",
+  "roots": [
+    "results/reviewer_proofing/M6_seed2026",
+    "results/reviewer_proofing/M6_seed7777"
+  ],
+  "out": "results/reviewer_proofing_policy_controls_actor-control model (corrected control-analysis implementation)",
+  "ddm_script": "shared/ddm/one_boundary_diffusion.py",
+  "variants": [
+    "D2",
+    "D5",
+    "D6",
+    "D6A",
+    "D7",
+    "D8"
+  ],
+  "configs": [
+    {
+      "config": "main",
+      "deadline_ms": 700.0,
+      "rt_min_ms": 100.0,
+      "rt_max_ms": 1000.0,
+      "t0_min": 0.03,
+      "t0_max": 0.08
+    },
+    {
+      "config": "higher_rtmin_150",
+      "deadline_ms": 700.0,
+      "rt_min_ms": 150.0,
+      "rt_max_ms": 1000.0,
+      "t0_min": 0.03,
+      "t0_max": 0.08
+    },
+    {
+      "config": "conservative_t0_050_150",
+      "deadline_ms": 700.0,
+      "rt_min_ms": 100.0,
+      "rt_max_ms": 1000.0,
+      "t0_min": 0.05,
+      "t0_max": 0.15
+    },
+    {
+      "config": "wider_t0_020_200",
+      "deadline_ms": 700.0,
+      "rt_min_ms": 100.0,
+      "rt_max_ms": 1000.0,
+      "t0_min": 0.02,
+      "t0_max": 0.2
+    }
+  ],
+  "k": 5,
+  "n_starts": 8
+}

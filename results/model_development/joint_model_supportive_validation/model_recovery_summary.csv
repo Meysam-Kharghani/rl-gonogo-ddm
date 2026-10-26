@@ -1,0 +1,4 @@
+config,fit_model,n_reps,mean_aic,mean_rank_aic,wins_aic
+main,J2,10,2108.7960558478057,1.7,6
+main,J1,10,2114.099819548551,2.0,2
+main,J0,10,2117.7333648065014,2.3,2

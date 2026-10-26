@@ -1,0 +1,24 @@
+{
+  "time": "2026-05-16 19:05:24",
+  "latents": "outputs/ddm_latents/trial_latents_for_ddm_M7_seed7777.csv",
+  "n_trials_raw": 15200,
+  "n_trials": 14759,
+  "n_subjects": 40,
+  "deadline_ms": 700.0,
+  "filter": {
+    "rt_min_ms": 100.0,
+    "rt_max_ms": 1000.0,
+    "n_raw": 15200,
+    "n_kept": 14759,
+    "n_removed": 441,
+    "n_removed_press_invalid_rt": 441,
+    "press_raw": 10509,
+    "press_kept": 10068,
+    "note": "Only press trials with invalid/anticipatory RT are removed; no-response trials are retained as censored."
+  },
+  "variants": [
+    "D2",
+    "D4",
+    "D5"
+  ]
+}

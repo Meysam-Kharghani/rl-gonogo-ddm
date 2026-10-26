@@ -1,0 +1,8 @@
+{
+  "time": "2026-06-07 00:58:12",
+  "out": "results/reviewer_proofing_policy_controls_actor-control model (corrected control-analysis implementation)",
+  "n_cv_rows": 48,
+  "n_fold_rows": 240,
+  "n_delta_rows": 40,
+  "notes": "Main outputs: all_policy_control_cv_ranked.csv and paired_fold_deltas_vs_D2.csv"
+}
