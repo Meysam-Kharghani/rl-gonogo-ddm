@@ -1,0 +1,6 @@
+Contrast,Mean ΔELPD / participant,95% interval,Positive participants
+actor/control beyond rich history,0.554,"[-0.198, 1.297]",25/40
+policy beyond rich history,0.439,"[-0.165, 1.061]",26/40
+policy beyond actor/control + rich history,0.182,"[-0.260, 0.631]",25/40
+actor/control beyond policy + rich history,0.296,"[-0.222, 0.800]",25/40
+total RL beyond rich history,0.736,"[-0.136, 1.618]",25/40

@@ -1,0 +1,10 @@
+Contrast,Mean ΔELPD,95% interval,Positive participants
+instructed numeric prior beyond categorical design,0.030,"[0.001, 0.072]",21/40
+strictly lagged empirical cue belief beyond categorical design,0.104,"[-0.001, 0.226]",22/40
+adaptive empirical cue belief beyond instructed prior,0.074,"[-0.015, 0.173]",20/40
+instructed numeric vs categorical cue coding within full RL family,-0.288,"[-0.528, -0.050]",13/40
+empirical vs categorical cue coding within full RL family,-0.305,"[-0.608, 0.010]",17/40
+empirical vs instructed cue coding within full RL family,-0.017,"[-0.189, 0.158]",21/40
+full RL block beyond instructed prior,9.432,"[4.663, 14.283]",29/40
+full RL block beyond empirical belief,9.341,"[4.716, 14.322]",29/40
+full RL block beyond categorical design,9.750,"[4.902, 14.841]",30/40

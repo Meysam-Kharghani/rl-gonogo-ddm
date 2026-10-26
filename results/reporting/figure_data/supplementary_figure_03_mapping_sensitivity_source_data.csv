@@ -1,0 +1,5 @@
+mapping_label,mean_delta_elpd,ci_low,ci_high,positive_subjects,n_subjects
+Actor/control: swapped mapping vs primary,2.937585714519307,2.013143353347134,3.9228092753509936,33,40
+Policy: distance mapping vs primary drift mapping,-0.976557234388174,-1.6034120868150012,-0.3305059667307518,14,40
+Full RL: swapped mapping vs primary,1.5536554709107704,-0.0192680021661985,3.342113189005857,25,40
+Full RL: expanded mapping vs primary,0.245397417828738,-2.232659402714817,2.3259835699756333,23,40

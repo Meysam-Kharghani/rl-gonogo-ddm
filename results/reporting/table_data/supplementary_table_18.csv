@@ -1,0 +1,10 @@
+Conceptual label,Repository ID,Role
+Actor–control RL model,M6,Frozen RL representation
+Actor–control + adaptive cue-belief model,M7,Developmental sensitivity
+Lagged-history first-passage reference,D6,Primary compact-history reference
+Actor/control + lagged history,D14,Primary component model
+Policy + lagged history,D15,Primary component model
+Full RL + lagged history,D9,Primary full model
+Categorical-design first-passage reference,D0,Cue-representation reference
+Instructed-probability model,D10,Cue-representation model
+Empirical cue-belief model,D11,Cue-representation model

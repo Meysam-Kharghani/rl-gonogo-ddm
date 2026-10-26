@@ -1,0 +1,9 @@
+Conceptual model,Main mechanism,Development status,Held-out ELPD where available
+Cue/target/previous-error baseline,No dynamic belief/control/actor state,Baseline/intermediate; stopped,−7765.96 (seed 2026 only)
+Cue-belief learning,Learns cue-specific NoGo belief,Full fit only; stopped,Not recovered
+Post-error control,Dynamic control updated toward error,Held-out comparator; stopped after weaker performance,−7730.89 mean across two partitions
+Cue belief + post-error control,Combines belief and control,Intermediate; stopped,−7700.74 (seed 2026 only)
+Volatility/associability belief learning,Adaptive belief learning rate,Full fit only; stopped,Not recovered
+Asymmetric cue-belief learning,Separate positive/negative belief updates,Full fit only; stopped,Not recovered
+Actor–control RL,Cue-action values + post-error control,Selected/frozen primary representation,−7684.85 mean across two partitions
+Actor–control + adaptive cue belief,Actor/control plus belief/associability,Competitive sensitivity; not advanced,−7686.10 mean across two partitions

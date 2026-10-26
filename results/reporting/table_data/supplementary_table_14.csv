@@ -1,0 +1,19 @@
+Stratum,Contrast,Mean ΔELPD,95% interval,Positive
+ALL,Policy beyond history,1.520,"[0.433, 2.554]",26/40
+ALL,Full RL beyond history,1.711,"[0.572, 2.808]",27/40
+Go,Policy beyond history,1.193,"[0.189, 2.149]",28/40
+Go,Full RL beyond history,1.644,"[0.651, 2.618]",30/40
+NoGo,Policy beyond history,0.327,"[-0.013, 0.688]",24/40
+NoGo,Full RL beyond history,0.068,"[-0.343, 0.523]",20/40
+censored,Policy beyond history,1.368,"[0.273, 2.457]",26/40
+censored,Full RL beyond history,1.834,"[0.443, 3.243]",25/40
+event,Policy beyond history,0.153,"[-1.006, 1.228]",21/40
+event,Full RL beyond history,-0.122,"[-1.726, 1.377]",21/40
+Go | censored,Policy beyond history,1.073,"[0.222, 1.910]",27/40
+Go | censored,Full RL beyond history,1.508,"[0.378, 2.659]",27/40
+Go | event,Policy beyond history,0.120,"[-0.859, 1.022]",23/40
+Go | event,Full RL beyond history,0.135,"[-1.153, 1.391]",24/40
+NoGo | censored,Policy beyond history,0.294,"[-0.170, 0.751]",24/40
+NoGo | censored,Full RL beyond history,0.325,"[-0.260, 0.925]",25/40
+NoGo | event,Policy beyond history,0.033,"[-0.302, 0.363]",22/40
+NoGo | event,Full RL beyond history,-0.258,"[-0.810, 0.263]",20/40

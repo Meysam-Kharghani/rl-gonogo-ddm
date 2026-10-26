@@ -1,0 +1,5 @@
+Model,Drift predictors,Boundary-distance predictors
+Lagged-history reference,"Target, cue, risk group, previous press, prior press rate, prior false-alarm rate","Target, cue, risk group, previous error, previous false alarm, prior press rate, prior false-alarm rate"
+Actor/control + history,History + actor value difference,History + control state
+Policy + history,History + policy probability,History
+Full RL + history,History + policy probability + actor value difference,History + control state

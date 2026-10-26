@@ -1,0 +1,5 @@
+Alternative mapping,Mean ΔELPD,95% interval,Positive participants
+Actor/control-only swapped mapping,2.938,"[2.013, 3.923]",33/40
+Policy in boundary distance,-0.977,"[-1.603, -0.331]",14/40
+Full-RL swapped actor/control mapping,1.554,"[-0.019, 3.342]",25/40
+Full-RL cross-loaded mapping,0.245,"[-2.233, 2.326]",23/40

@@ -1,0 +1,11 @@
+Component,Parameterization,Prior
+Participant response bias,b_i = μ_bias + δ_bias·group_i + σ_bias z_i,"μ_bias ~ Normal(0,1); δ_bias ~ Normal(0,0.6); σ_bias ~ HalfNormal(1)"
+Cue effects,Centered across three cue levels,"Raw coefficients ~ Normal(0,0.5)"
+NoGo coefficient,Constrained negative,−HalfNormal(1)
+Previous-error coefficient,Unconstrained,"Normal(0,0.7)"
+Lapse probability,Mixture with 0.5 response probability,"Beta(1,12)"
+Learning-rate latent location,Separate actor/control scales,"μ ~ Normal(0,1)"
+Learning-rate group shift,Separate actor/control scales,"δ ~ Normal(0,0.5)"
+Learning-rate between-person SD,Separate actor/control scales,σ ~ HalfNormal(0.7)
+Control weight,Constrained negative,−HalfNormal(1)
+Actor sensitivity,β_actor = exp(ℓ_actor),"μ_ℓ ~ Normal(0,0.8); δ_ℓ ~ Normal(0,0.4); σ_ℓ ~ HalfNormal(0.6)"

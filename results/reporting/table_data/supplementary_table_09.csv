@@ -1,0 +1,6 @@
+Contrast,Mean ΔELPD / participant,95% interval,Positive participants
+actor/control beyond history without p_press,0.067,"[-0.699, 0.844]",24/40
+p_press beyond actor/control plus history,1.645,"[0.306, 2.877]",28/40
+actor/control beyond p_press plus history,0.191,"[-0.738, 0.996]",25/40
+p_press beyond history,1.520,"[0.448, 2.570]",26/40
+total RL information beyond history,1.711,"[0.587, 2.823]",27/40

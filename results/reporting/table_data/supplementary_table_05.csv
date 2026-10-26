@@ -1,0 +1,11 @@
+Sensitivity,Contrast,Mean ΔELPD,95% interval,Positive
+Primary configuration (300 RL posterior draws),Actor/control beyond compact history,1.126,"[0.438, 1.805]",26/40
+Primary configuration (300 RL posterior draws),Full RL beyond compact history,1.190,"[0.542, 1.856]",27/40
+Expanded regularization grid,Actor/control beyond compact history,1.175,"[0.530, 1.825]",25/40
+Expanded regularization grid,Full RL beyond compact history,1.031,"[0.371, 1.687]",26/40
+Alternative outer partition (seed 7777),Actor/control beyond compact history,1.174,"[0.594, 1.763]",28/40
+Alternative outer partition (seed 7777),Full RL beyond compact history,1.144,"[0.479, 1.848]",27/40
+Response-time inclusion filter,Actor/control beyond compact history,1.246,"[0.586, 1.899]",27/40
+Response-time inclusion filter,Full RL beyond compact history,1.134,"[0.422, 1.866]",25/40
+Risk-group covariate included,Actor/control beyond compact history,1.164,"[0.517, 1.816]",26/40
+Risk-group covariate included,Full RL beyond compact history,1.066,"[0.430, 1.731]",27/40

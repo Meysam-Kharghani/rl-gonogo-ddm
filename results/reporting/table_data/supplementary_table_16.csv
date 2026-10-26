@@ -1,0 +1,10 @@
+Parameter,95% interval coverage,Mean absolute error,Mean participant-level recovery r
+Response bias,0.945,0.171,0.942
+Actor sensitivity,0.955,0.292,0.825
+Control learning rate,0.958,0.094,0.704
+Actor learning rate,0.955,0.073,0.556
+SD: response bias,1.000,0.039,
+SD: actor sensitivity,0.900,0.135,
+SD: control learning rate,0.300,0.582,
+SD: actor learning rate,0.500,0.483,
+Control weight,0.900,0.193,

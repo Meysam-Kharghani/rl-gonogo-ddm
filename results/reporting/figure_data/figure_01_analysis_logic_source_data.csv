@@ -1,0 +1,8 @@
+order,stage,status,role
+1,Cued Go/NoGo behavior,INPUT,"40 participants; 15,200 trials"
+2,Stage-gated RL development,DEVELOPMENT,Actor–control representation selected for downstream evaluation
+3,Participant-level cross-fitting,PRIMARY_PIPELINE,Train-fold RL estimation and new-participant latent generation
+4,Action occurrence,PRIMARY_AND_ROBUSTNESS,Compact history followed by richer history
+5,Fixed-horizon first passage,PRIMARY_AND_ROBUSTNESS,Response by 700 ms plus observed-response timing
+6,Likelihood decomposition,ROBUSTNESS,Observed-response density versus censored/survival contribution
+7,Final inference,INTERPRETATION,RL increment is modest and baseline-dependent; first-passage gain is concentrated in response occurrence/survival

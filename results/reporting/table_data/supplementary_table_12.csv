@@ -1,0 +1,5 @@
+Model,Observed event rate,Predicted event rate,Brier,Calibration intercept,Calibration slope
+Actor/control + history,0.665,0.679,0.1775,-0.021,0.908
+Policy + history,0.665,0.677,0.1769,-0.004,0.897
+Compact history,0.665,0.679,0.1779,-0.020,0.907
+Full RL + history,0.665,0.677,0.1769,0.004,0.892

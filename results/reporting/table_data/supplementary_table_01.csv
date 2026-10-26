@@ -1,0 +1,11 @@
+Stage,Focus,Status,Decision logic
+1,Behavior/task canonicalization,ADVANCED,"40-participant task, cue/action labels, RT convention, and lagged history reconciled."
+2,RL candidate family,STAGED,Weak/intermediate candidates stopped; advanced actor/control variants entered held-out comparison.
+3,Actor–control selection,PRIMARY,Parsimonious actor–control representation frozen after two-partition held-out comparison.
+4,Initial first-passage candidates,STAGED,Weak EEG/adaptive-belief/ablation branches stopped or retained as supportive controls.
+5,Behavioral-history control,QUESTION REVISED,Strong personal-history reference replaced categorical design as primary comparator.
+6,Core decomposition,PRIMARY,"History, actor/control+history, policy+history, full-RL+history frozen for main contrasts."
+7,Cue-probability representation,SUPPORTIVE,Instructed vs empirical cue probability retained as secondary analysis.
+8,Sensitivity/stability,ROBUSTNESS,"Partition, RT threshold, t0, horizon, regularization, group, later-trial checks."
+9,Post-development stress tests,ROBUSTNESS,"Richer history, absolute calibration, likelihood decomposition, mapping sensitivity, parameter recovery."
+10,Prospect-inspired extension,DEFERRED,Incomplete/specification-conflicted; excluded from manuscript evidence.

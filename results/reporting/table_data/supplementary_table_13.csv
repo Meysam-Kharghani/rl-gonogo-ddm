@@ -1,0 +1,5 @@
+Model,Overall,Go,NoGo
+Compact history,31.2,23.8,95.7
+Actor/control + history,31.1,23.8,95.5
+Policy + history,31.0,23.7,95.1
+Full RL + history,31.2,23.7,95.5

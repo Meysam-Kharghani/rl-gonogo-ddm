@@ -1,0 +1,6 @@
+Repository contrast,Mean ΔELPD,95% interval,Positive participants
+Richer lagged history vs compact lagged history,1.438,"[0.877, 2.025]",28/40
+Actor/control + richer lagged history vs richer lagged history,0.290,"[-0.073, 0.633]",25/40
+Policy + richer lagged history vs richer lagged history,0.297,"[-0.068, 0.653]",23/40
+Full RL + richer lagged history vs richer lagged history,0.403,"[0.016, 0.776]",26/40
+Full RL + richer lagged history vs policy + richer lagged history,0.106,"[-0.203, 0.382]",24/40
