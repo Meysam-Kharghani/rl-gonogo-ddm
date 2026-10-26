@@ -1,0 +1,52 @@
+{
+  "history_features": [
+    "press_lag2",
+    "press_lag3",
+    "press_lag4",
+    "press_lag5",
+    "error_lag2",
+    "error_lag3",
+    "error_lag4",
+    "error_lag5",
+    "press_ewma_a10",
+    "press_ewma_a30",
+    "fa_ewma_a10",
+    "fa_ewma_a30"
+  ],
+  "C_grid": [
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1,
+    3,
+    10
+  ],
+  "strictly_lagged": true,
+  "max_rl_draws": 300,
+  "planned_contrasts": [
+    [
+      "richer_lagged_history",
+      "compact_lagged_history"
+    ],
+    [
+      "richer_lagged_history_plus_actor_control",
+      "richer_lagged_history"
+    ],
+    [
+      "richer_lagged_history_plus_policy",
+      "richer_lagged_history"
+    ],
+    [
+      "richer_lagged_history_plus_full_rl",
+      "richer_lagged_history"
+    ],
+    [
+      "richer_lagged_history_plus_full_rl",
+      "richer_lagged_history_plus_policy"
+    ]
+  ]
+}

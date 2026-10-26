@@ -1,0 +1,337 @@
+{
+  "variant": "HR6",
+  "variant_name": "rich_history",
+  "success": true,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "nll": 441.5285283286106,
+  "loglik": -441.5285283286106,
+  "n_params": 42,
+  "n_trials": 11749,
+  "aic": 967.0570566572212,
+  "bic": 1276.6610398590592,
+  "theta": [
+    2.6806601122364295,
+    -2.439852678240398,
+    0.0437818443998929,
+    0.02184089045197131,
+    0.29669817347704025,
+    -0.24309233533008506,
+    0.7197827745909265,
+    -0.24045966926399273,
+    -0.0691016909063967,
+    -0.05725951397665605,
+    -0.07888451454476934,
+    -0.06867415958824888,
+    -0.05186791395283101,
+    -0.011411285607082591,
+    0.025045256242054066,
+    0.014588896224896328,
+    0.5795891740880544,
+    0.023787135064688478,
+    -0.5074583017860321,
+    -0.231513207619431,
+    0.7491669257953683,
+    -0.6512010459778497,
+    0.1180149873361313,
+    0.03768059186903316,
+    0.11520611447079893,
+    0.04887321624834744,
+    0.12635032882593014,
+    0.33265373847595914,
+    -0.2505734657868192,
+    -0.04235511597097153,
+    -0.013782964743708583,
+    -0.033124640164838286,
+    -0.008004537622113592,
+    0.005490813737345136,
+    0.007483255584992581,
+    0.03490572373034904,
+    0.014723757122045095,
+    0.1069034834532176,
+    0.07787877325091545,
+    -0.4094200646154734,
+    -0.09679863490479218,
+    0.04237842650207592
+  ],
+  "design": {
+    "drift_cols": [
+      "intercept",
+      "is_nogo",
+      "cue_up",
+      "cue_bi",
+      "group_high",
+      "prev_press",
+      "prior_press_rate_z",
+      "prior_fa_rate_z",
+      "press_lag2_z",
+      "press_lag3_z",
+      "press_lag4_z",
+      "press_lag5_z",
+      "error_lag2_z",
+      "error_lag3_z",
+      "error_lag4_z",
+      "error_lag5_z",
+      "press_ewma_a10_z",
+      "press_ewma_a30_z",
+      "fa_ewma_a10_z",
+      "fa_ewma_a30_z"
+    ],
+    "dist_cols": [
+      "intercept",
+      "is_nogo",
+      "cue_up",
+      "cue_bi",
+      "group_high",
+      "prev_error",
+      "prev_fa",
+      "prior_press_rate_z",
+      "prior_fa_rate_z",
+      "press_lag2_z",
+      "press_lag3_z",
+      "press_lag4_z",
+      "press_lag5_z",
+      "error_lag2_z",
+      "error_lag3_z",
+      "error_lag4_z",
+      "error_lag5_z",
+      "press_ewma_a10_z",
+      "press_ewma_a30_z",
+      "fa_ewma_a10_z",
+      "fa_ewma_a30_z"
+    ],
+    "t0_cols": [
+      "intercept"
+    ],
+    "standardization": {
+      "control_z": {
+        "source": "control_current",
+        "mean": 0.2348601203727182,
+        "sd": 0.16735501754437726
+      },
+      "actor_qdiff_z": {
+        "source": "actor_qdiff_current",
+        "mean": 0.37288000967815266,
+        "sd": 0.2600808030590887
+      },
+      "p_press_z": {
+        "source": "p_press",
+        "mean": 0.6965192525096402,
+        "sd": 0.18411783143121876
+      },
+      "belief_z": {
+        "source": "belief_nogo_current",
+        "mean": 0.5,
+        "sd": 1.0
+      },
+      "assoc_z": {
+        "source": "associability_current",
+        "mean": 0.0,
+        "sd": 1.0
+      },
+      "cnv_z_global": {
+        "source": "cnv_z",
+        "mean": -0.0013490538219505226,
+        "sd": 1.0031127192711
+      },
+      "p300_z_global": {
+        "source": "p300_z",
+        "mean": -0.0032171456641892477,
+        "sd": 1.0023464193904943
+      },
+      "prior_press_rate_z": {
+        "source": "prior_press_rate",
+        "mean": 0.691959674483299,
+        "sd": 0.12716866161838483
+      },
+      "prior_fa_rate_z": {
+        "source": "prior_fa_rate",
+        "mean": 0.4055363543311598,
+        "sd": 0.2002893597228475
+      },
+      "train_bin_press_rate_z": {
+        "source": "train_bin_press_rate",
+        "mean": 0.6710412234611517,
+        "sd": 0.1799153066488077
+      },
+      "train_bin_fa_rate_z": {
+        "source": "train_bin_fa_rate",
+        "mean": 0.46601449915565085,
+        "sd": 0.06387474770223071
+      },
+      "p_press_shuf_z": {
+        "source": "p_press_shuffled",
+        "mean": 0.6965192525096402,
+        "sd": 0.18411783143121876
+      },
+      "instructed_nogo_prob_z": {
+        "source": "instructed_nogo_prob",
+        "mean": 0.24737594688909695,
+        "sd": 0.12641693317885733
+      },
+      "instructed_nogo_logit_z": {
+        "source": "instructed_nogo_logit",
+        "mean": -1.2470566421127447,
+        "sd": 0.7281529153006134
+      },
+      "empirical_nogo_prob_z": {
+        "source": "empirical_nogo_prob",
+        "mean": 0.2444594140460684,
+        "sd": 0.11703227658698753
+      },
+      "empirical_nogo_logit_z": {
+        "source": "empirical_nogo_logit",
+        "mean": -1.2447098096118383,
+        "sd": 0.6752158801738741
+      },
+      "press_lag2_z": {
+        "source": "press_lag2",
+        "mean": 0.6927398076432036,
+        "sd": 0.46135817598657647
+      },
+      "press_lag3_z": {
+        "source": "press_lag3",
+        "mean": 0.6908673078559877,
+        "sd": 0.4621359873368526
+      },
+      "press_lag4_z": {
+        "source": "press_lag4",
+        "mean": 0.6881436718018554,
+        "sd": 0.4632515070249806
+      },
+      "press_lag5_z": {
+        "source": "press_lag5",
+        "mean": 0.6874627627883224,
+        "sd": 0.4635274668968055
+      },
+      "error_lag2_z": {
+        "source": "error_lag2",
+        "mean": 0.2410417907907056,
+        "sd": 0.42771561332632607
+      },
+      "error_lag3_z": {
+        "source": "error_lag3",
+        "mean": 0.2405311090305558,
+        "sd": 0.4274060067653316
+      },
+      "error_lag4_z": {
+        "source": "error_lag4",
+        "mean": 0.24121201804408887,
+        "sd": 0.427818630257247
+      },
+      "error_lag5_z": {
+        "source": "error_lag5",
+        "mean": 0.23916929100348966,
+        "sd": 0.4265763017847777
+      },
+      "press_ewma_a10_z": {
+        "source": "press_ewma_a10",
+        "mean": 0.6917634080006259,
+        "sd": 0.1616166613091244
+      },
+      "press_ewma_a30_z": {
+        "source": "press_ewma_a30",
+        "mean": 0.695486943740397,
+        "sd": 0.22401964129909932
+      },
+      "fa_ewma_a10_z": {
+        "source": "fa_ewma_a10",
+        "mean": 0.3588332395906315,
+        "sd": 0.2050956990809882
+      },
+      "fa_ewma_a30_z": {
+        "source": "fa_ewma_a30",
+        "mean": 0.3709450907077932,
+        "sd": 0.2649271988245116
+      }
+    },
+    "residualized_policy": {
+      "predictors": [
+        "intercept",
+        "is_nogo",
+        "cue_up",
+        "cue_bi",
+        "group_high",
+        "prev_error",
+        "prev_press",
+        "prior_press_rate_z",
+        "prior_fa_rate_z"
+      ],
+      "beta": [
+        0.7975234799459955,
+        -0.4032960684229084,
+        -0.02721555789443869,
+        0.0030286039080401964,
+        0.042114597739315945,
+        -0.05467283537190998,
+        0.0033354765799081254,
+        0.01214955928679631,
+        -0.008825285491060679
+      ],
+      "resid_mean": 3.760905300883584e-16,
+      "resid_sd": 0.03181013002283273
+    },
+    "placebo_policy": {
+      "method": "deterministic rotation within subject x cue x target bins",
+      "source": "p_press",
+      "column": "p_press_shuf_z"
+    },
+    "train_fold_behavioral_rates": {
+      "keys": [
+        "group_high",
+        "cue_label_ddm",
+        "is_nogo"
+      ],
+      "n_bins": 12,
+      "global_press_rate": 0.6711063829787234,
+      "global_fa_rate": 0.36086956521739133,
+      "smoothing": "Laplace: (count + 0.5)/(n + 1)"
+    }
+  },
+  "optimizer_history": [
+    {
+      "start": 0,
+      "success": true,
+      "fun": 441.52859056273815,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 1,
+      "success": true,
+      "fun": 441.5286500551305,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 2,
+      "success": true,
+      "fun": 441.5285283286106,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 3,
+      "success": true,
+      "fun": 441.5285899039226,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 4,
+      "success": true,
+      "fun": 441.52854787629843,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 5,
+      "success": true,
+      "fun": 441.52856936630496,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    }
+  ],
+  "settings": {
+    "deadline_ms": 700.0,
+    "n_starts": 6,
+    "seed": 3186934763,
+    "l2": 0.0001,
+    "t0_min": 0.03,
+    "t0_max": 0.03,
+    "dist_min": 0.05
+  }
+}

@@ -1,0 +1,6 @@
+model,reference,n_subjects,mean_subject_delta_elpd,ci_low,ci_high,positive_subjects,total_delta_elpd
+richer_lagged_history,compact_lagged_history,40,1.4383434176834917,0.8772958793125423,2.0249987351909886,28,57.53373670733967
+richer_lagged_history_plus_actor_control,richer_lagged_history,40,0.2896577807273804,-0.07339399002831355,0.6328792208251038,25,11.586311229095216
+richer_lagged_history_plus_policy,richer_lagged_history,40,0.2973789547726895,-0.06763869545424682,0.6528964724505518,23,11.89515819090758
+richer_lagged_history_plus_full_rl,richer_lagged_history,40,0.40333801492916554,0.01644704317851355,0.7759227285715156,26,16.133520597166623
+richer_lagged_history_plus_full_rl,richer_lagged_history_plus_policy,40,0.10595906015647608,-0.20252974399958157,0.3818394837924516,24,4.238362406259043

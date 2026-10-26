@@ -1,0 +1,343 @@
+{
+  "variant": "HR9",
+  "variant_name": "rich_history_plus_full_rl",
+  "success": true,
+  "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+  "nll": 151.20238214847666,
+  "loglik": -151.20238214847666,
+  "n_params": 45,
+  "n_trials": 11846,
+  "aic": 392.4047642969533,
+  "bic": 724.4933134546143,
+  "theta": [
+    2.6237385954121617,
+    -1.6414375068133702,
+    0.08427448817324823,
+    -0.024216208730117438,
+    0.1722313266846171,
+    -0.19261475301167097,
+    0.9754925980805176,
+    -0.2848426941840925,
+    -0.04787295460630315,
+    -0.01645485584637786,
+    -0.09210252205735207,
+    -0.009840292605536087,
+    -0.061594492686751545,
+    -0.004124531975787834,
+    0.03927181725701668,
+    0.04829411965586392,
+    0.2846151172599111,
+    0.05780275998074418,
+    -0.5472054014722187,
+    -0.10977887449927366,
+    0.028328179685186337,
+    0.4509310388553523,
+    1.0274586739868916,
+    -0.7169652852138229,
+    0.06063923769117501,
+    0.009754055162197264,
+    0.046674554929066275,
+    -0.38073386232213385,
+    0.13872917296091944,
+    0.4562674343964424,
+    -0.2505538964537639,
+    -0.03712499546127219,
+    -0.006084187415787707,
+    -0.04308928415600025,
+    0.010906029164262738,
+    -0.09468026916667492,
+    -0.040438671766789315,
+    -0.0025708993485354876,
+    0.0013882004897628596,
+    0.05808460156042859,
+    0.06645394382102386,
+    -0.47861796653027683,
+    -0.0720330713376378,
+    0.25177398949610375,
+    0.29343540236123544
+  ],
+  "design": {
+    "drift_cols": [
+      "intercept",
+      "is_nogo",
+      "cue_up",
+      "cue_bi",
+      "group_high",
+      "prev_press",
+      "prior_press_rate_z",
+      "prior_fa_rate_z",
+      "press_lag2_z",
+      "press_lag3_z",
+      "press_lag4_z",
+      "press_lag5_z",
+      "error_lag2_z",
+      "error_lag3_z",
+      "error_lag4_z",
+      "error_lag5_z",
+      "press_ewma_a10_z",
+      "press_ewma_a30_z",
+      "fa_ewma_a10_z",
+      "fa_ewma_a30_z",
+      "actor_qdiff_z",
+      "p_press_z"
+    ],
+    "dist_cols": [
+      "intercept",
+      "is_nogo",
+      "cue_up",
+      "cue_bi",
+      "group_high",
+      "prev_error",
+      "prev_fa",
+      "prior_press_rate_z",
+      "prior_fa_rate_z",
+      "press_lag2_z",
+      "press_lag3_z",
+      "press_lag4_z",
+      "press_lag5_z",
+      "error_lag2_z",
+      "error_lag3_z",
+      "error_lag4_z",
+      "error_lag5_z",
+      "press_ewma_a10_z",
+      "press_ewma_a30_z",
+      "fa_ewma_a10_z",
+      "fa_ewma_a30_z",
+      "control_z"
+    ],
+    "t0_cols": [
+      "intercept"
+    ],
+    "standardization": {
+      "control_z": {
+        "source": "control_current",
+        "mean": 0.23294878073227548,
+        "sd": 0.1875281914844067
+      },
+      "actor_qdiff_z": {
+        "source": "actor_qdiff_current",
+        "mean": 0.37191166284398514,
+        "sd": 0.2677523384319329
+      },
+      "p_press_z": {
+        "source": "p_press",
+        "mean": 0.6891078264344583,
+        "sd": 0.19291377200299661
+      },
+      "belief_z": {
+        "source": "belief_nogo_current",
+        "mean": 0.5,
+        "sd": 1.0
+      },
+      "assoc_z": {
+        "source": "associability_current",
+        "mean": 0.0,
+        "sd": 1.0
+      },
+      "cnv_z_global": {
+        "source": "cnv_z",
+        "mean": -0.0007576905352601212,
+        "sd": 1.0021227188843354
+      },
+      "p300_z_global": {
+        "source": "p300_z",
+        "mean": -0.0030550192131102915,
+        "sd": 1.001706486777964
+      },
+      "prior_press_rate_z": {
+        "source": "prior_press_rate",
+        "mean": 0.6848786185459017,
+        "sd": 0.137120954235305
+      },
+      "prior_fa_rate_z": {
+        "source": "prior_fa_rate",
+        "mean": 0.3801823441132187,
+        "sd": 0.20427882747648587
+      },
+      "train_bin_press_rate_z": {
+        "source": "train_bin_press_rate",
+        "mean": 0.6675813147813197,
+        "sd": 0.18578686942521958
+      },
+      "train_bin_fa_rate_z": {
+        "source": "train_bin_fa_rate",
+        "mean": 0.46220627796319563,
+        "sd": 0.06953638608189724
+      },
+      "p_press_shuf_z": {
+        "source": "p_press_shuffled",
+        "mean": 0.6891078264344583,
+        "sd": 0.19291377200299661
+      },
+      "instructed_nogo_prob_z": {
+        "source": "instructed_nogo_prob",
+        "mean": 0.2473256795542799,
+        "sd": 0.12642618027374228
+      },
+      "instructed_nogo_logit_z": {
+        "source": "instructed_nogo_logit",
+        "mean": -1.2473731948008575,
+        "sd": 0.7282177102655252
+      },
+      "empirical_nogo_prob_z": {
+        "source": "empirical_nogo_prob",
+        "mean": 0.24441933874394342,
+        "sd": 0.11702204834694857
+      },
+      "empirical_nogo_logit_z": {
+        "source": "empirical_nogo_logit",
+        "mean": -1.2449129710823414,
+        "sd": 0.6751314919217053
+      },
+      "press_lag2_z": {
+        "source": "press_lag2",
+        "mean": 0.6864764477460746,
+        "sd": 0.4639251388273818
+      },
+      "press_lag3_z": {
+        "source": "press_lag3",
+        "mean": 0.6841127806854634,
+        "sd": 0.4648682436866025
+      },
+      "press_lag4_z": {
+        "source": "press_lag4",
+        "mean": 0.6820023636670606,
+        "sd": 0.4656985501583648
+      },
+      "press_lag5_z": {
+        "source": "press_lag5",
+        "mean": 0.6807361134560189,
+        "sd": 0.4661914384593663
+      },
+      "error_lag2_z": {
+        "source": "error_lag2",
+        "mean": 0.23822387303731218,
+        "sd": 0.42599678326533724
+      },
+      "error_lag3_z": {
+        "source": "error_lag3",
+        "mean": 0.23822387303731218,
+        "sd": 0.42599678326533724
+      },
+      "error_lag4_z": {
+        "source": "error_lag4",
+        "mean": 0.23788620631436772,
+        "sd": 0.425789101739025
+      },
+      "error_lag5_z": {
+        "source": "error_lag5",
+        "mean": 0.23729528954921492,
+        "sd": 0.42542477020851666
+      },
+      "press_ewma_a10_z": {
+        "source": "press_ewma_a10",
+        "mean": 0.6851414102280963,
+        "sd": 0.1694746619633489
+      },
+      "press_ewma_a30_z": {
+        "source": "press_ewma_a30",
+        "mean": 0.6887118687871223,
+        "sd": 0.23089574315241576
+      },
+      "fa_ewma_a10_z": {
+        "source": "fa_ewma_a10",
+        "mean": 0.3399990485932673,
+        "sd": 0.2054444387911159
+      },
+      "fa_ewma_a30_z": {
+        "source": "fa_ewma_a30",
+        "mean": 0.3512056642964402,
+        "sd": 0.26334659871373256
+      }
+    },
+    "residualized_policy": {
+      "predictors": [
+        "intercept",
+        "is_nogo",
+        "cue_up",
+        "cue_bi",
+        "group_high",
+        "prev_error",
+        "prev_press",
+        "prior_press_rate_z",
+        "prior_fa_rate_z"
+      ],
+      "beta": [
+        0.7945260156289872,
+        -0.4252823283119385,
+        -0.02400830123405226,
+        0.0049571836972940875,
+        0.03531653640004212,
+        -0.047706348806156956,
+        0.004760052879730525,
+        0.015614632765571759,
+        -0.011589821692064718
+      ],
+      "resid_mean": 1.573768785202231e-16,
+      "resid_sd": 0.035255045217146695
+    },
+    "placebo_policy": {
+      "method": "deterministic rotation within subject x cue x target bins",
+      "source": "p_press",
+      "column": "p_press_shuf_z"
+    },
+    "train_fold_behavioral_rates": {
+      "keys": [
+        "group_high",
+        "cue_label_ddm",
+        "is_nogo"
+      ],
+      "n_bins": 12,
+      "global_press_rate": 0.6676373765510256,
+      "global_fa_rate": 0.3453448275862069,
+      "smoothing": "Laplace: (count + 0.5)/(n + 1)"
+    }
+  },
+  "optimizer_history": [
+    {
+      "start": 0,
+      "success": false,
+      "fun": 151.20266153690295,
+      "message": "STOP: TOTAL NO. OF F,G EVALUATIONS EXCEEDS LIMIT"
+    },
+    {
+      "start": 1,
+      "success": false,
+      "fun": 151.20337449644174,
+      "message": "STOP: TOTAL NO. OF F,G EVALUATIONS EXCEEDS LIMIT"
+    },
+    {
+      "start": 2,
+      "success": true,
+      "fun": 151.20238214847666,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 3,
+      "success": true,
+      "fun": 151.20238671714512,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 4,
+      "success": true,
+      "fun": 151.2024210926881,
+      "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+    },
+    {
+      "start": 5,
+      "success": false,
+      "fun": 151.2029331100357,
+      "message": "STOP: TOTAL NO. OF F,G EVALUATIONS EXCEEDS LIMIT"
+    }
+  ],
+  "settings": {
+    "deadline_ms": 700.0,
+    "n_starts": 6,
+    "seed": 1271389527,
+    "l2": 0.0001,
+    "t0_min": 0.03,
+    "t0_max": 0.03,
+    "dist_min": 0.05
+  }
+}

@@ -1,0 +1,11 @@
+fold,split,n_raw,n_kept,n_removed,n_late_press_right_censored,rich_history_computed_pre_filter,deadline_ms,rt_min_ms
+0,train,12160,11751,409,215,True,700.0,100.0
+0,test,3040,3010,30,36,True,700.0,100.0
+1,train,12160,11846,314,180,True,700.0,100.0
+1,test,3040,2915,125,71,True,700.0,100.0
+2,train,12160,11845,315,218,True,700.0,100.0
+2,test,3040,2916,124,33,True,700.0,100.0
+3,train,12160,11749,411,184,True,700.0,100.0
+3,test,3040,3012,28,67,True,700.0,100.0
+4,train,12160,11853,307,207,True,700.0,100.0
+4,test,3040,2908,132,44,True,700.0,100.0

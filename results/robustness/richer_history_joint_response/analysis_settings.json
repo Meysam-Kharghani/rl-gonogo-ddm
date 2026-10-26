@@ -1,0 +1,59 @@
+{
+  "status": "post-development robustness analysis",
+  "seed": 2026,
+  "max_rl_draws": 300,
+  "deadline_ms": 700.0,
+  "rt_min_ms": 100.0,
+  "prior_strength": 10.0,
+  "n_starts": 6,
+  "l2": 0.0001,
+  "rich_history_features": [
+    "press_lag2",
+    "press_lag3",
+    "press_lag4",
+    "press_lag5",
+    "error_lag2",
+    "error_lag3",
+    "error_lag4",
+    "error_lag5",
+    "press_ewma_a10",
+    "press_ewma_a30",
+    "fa_ewma_a10",
+    "fa_ewma_a30"
+  ],
+  "rich_history_mapping": "all 12 standardized rich-history covariates enter both drift and distance",
+  "rich_history_timing": "computed on complete pre-filter original behavioral sequence",
+  "variants": [
+    "HR6",
+    "HR14",
+    "HR15",
+    "HR9"
+  ],
+  "planned_contrasts": [
+    [
+      "HR14",
+      "HR6",
+      "actor/control beyond rich history"
+    ],
+    [
+      "HR15",
+      "HR6",
+      "policy beyond rich history"
+    ],
+    [
+      "HR9",
+      "HR14",
+      "policy beyond actor/control + rich history"
+    ],
+    [
+      "HR9",
+      "HR15",
+      "actor/control beyond policy + rich history"
+    ],
+    [
+      "HR9",
+      "HR6",
+      "total RL beyond rich history"
+    ]
+  ]
+}
