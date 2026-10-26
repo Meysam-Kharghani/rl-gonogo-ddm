@@ -1,0 +1,11 @@
+stage_id	stage	candidate_scope	decision_status	decision_basis	evidence_path
+BC-01	Data canonicalization	task/behavior structure	ADVANCED	Canonical task and lagged-history inputs established	docs/controlled_input_schema.md
+BC-02	RL candidate screen	M0–M7	M1/M4/M5 STOPPED_BY_DESIGN; M0/M2/M3 intermediate; M6/M7 ADVANCED	Full fits + available subject-level CV; PSIS diagnostic not ranking criterion	docs/model_registry_rl.csv
+BC-03	RL repeated selection	M6 vs M7	M6 PRIMARY; M7 sensitivity	Mean repeated held-out performance + parsimony; no stable M7 advantage	results/model_development/rl_candidate_selection/
+BC-04	Initial DDM development	D0–D5	D2 ADVANCED; D3/D4 stopped; D5 supportive/superseded	Held-out predictive comparison	results/model_development/ddm_initial_candidate_comparisons/
+BC-05	Behavioral-history control	D6 family	D6 ADVANCED as reference	Stronger lagged-history prediction reframed downstream question	results/model_development/ddm_behavioral_history_controls/
+BC-06	Primary DDM decomposition	D6/D14/D15/D9	PRIMARY	Fixed-horizon right-censored held-out contrasts	results/ddm/
+BC-07	Cue-probability representation	D0/D10/D11/D2/D12/D13	SUPPORTIVE	Instructed vs empirical cue coding	results/ddm/
+BC-08	Primary sensitivities	selected core models	COMPLETED_AS_PLANNED	Sensitivity concentrated on surviving primary/component models	results/ddm/
+BC-09	Post-development robustness	selected primary models	ROBUSTNESS	Richer history, horizon, mapping, calibration, recovery, likelihood decomposition	results/robustness/
+BC-10	Prospect-theory RL extension	developmental extension	DEFERRED_DEVELOPMENT	Incomplete repeated run + specification inconsistency; excluded from evidence	docs/analysis_lineage_and_decision_log.md

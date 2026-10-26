@@ -1,0 +1,10 @@
+source_artifact	reason	public_release_action
+results/model_development/rl_fullfit_seed2026/M6/cv_kfold_subject.json	participant-level cross-validation identifiers and per-participant log predictive densities	excluded; aggregate evidence retained
+results/model_development/rl_fullfit_seed2026/M3/cv_kfold_subject.json	participant-level cross-validation identifiers and per-participant log predictive densities	excluded; aggregate evidence retained
+results/model_development/rl_fullfit_seed2026/M2/cv_kfold_subject.json	participant-level cross-validation identifiers and per-participant log predictive densities	excluded; aggregate evidence retained
+results/model_development/rl_fullfit_seed2026/M7/cv_kfold_subject.json	participant-level cross-validation identifiers and per-participant log predictive densities	excluded; aggregate evidence retained
+results/model_development/rl_fullfit_seed2026/M0/cv_kfold_subject.json	participant-level cross-validation identifiers and per-participant log predictive densities	excluded; aggregate evidence retained
+results/model_development/rl_cv_seed7777/M6/cv_kfold_subject.json	participant-level cross-validation identifiers and per-participant log predictive densities	excluded; aggregate evidence retained
+results/model_development/rl_cv_seed7777/M2/cv_kfold_subject.json	participant-level cross-validation identifiers and per-participant log predictive densities	excluded; aggregate evidence retained
+results/model_development/rl_cv_seed7777/M7/cv_kfold_subject.json	participant-level cross-validation identifiers and per-participant log predictive densities	excluded; aggregate evidence retained
+results/robustness/actor_control_parameter_recovery/m6_simulation_behavior_summary.csv	simulation table contained participant labels	replaced by simulation_behavior_aggregate.csv

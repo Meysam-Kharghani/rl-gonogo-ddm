@@ -1,0 +1,134 @@
+{
+  "paper": "behavioral-computational study",
+  "title": "Distinct reinforcement-learning signals predict action occurrence and joint action\u2013response-time dynamics beyond lagged behavioral history",
+  "release_status": "computational analyses and aggregate reporting frozen; publication metadata pending",
+  "cohort": {
+    "n_participants": 40,
+    "n_high_risk": 20,
+    "n_low_risk": 20,
+    "rows_before_ddm_likelihood_filtering": 15200,
+    "handedness": {
+      "right": 36,
+      "left": 4
+    },
+    "selection": "Adjusted BART top 20% and bottom 20% strata with random selection from the extreme groups; 20 participants per group."
+  },
+  "rl": {
+    "variant": "M6",
+    "outer_folds": 5,
+    "primary_seed": 2026,
+    "train_fold_nuts": {
+      "chains": 4,
+      "cores": 4,
+      "tune_per_chain": 600,
+      "draws_per_chain": 600,
+      "target_accept": 0.9,
+      "fold_seeds": [
+        2123,
+        2220,
+        2317,
+        2414,
+        2511
+      ]
+    },
+    "primary_downstream_max_posterior_draws": 300,
+    "diagnostics_table": "results/ddm/actor_control_fold_posterior_diagnostics.csv"
+  },
+  "primary_action_benchmark": {
+    "seed": 2026,
+    "outer_folds": 5,
+    "max_rl_draws": 300,
+    "prior_strength": 10.0,
+    "rt_filter_mode": "all",
+    "include_group": false,
+    "C_grid": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "inner_folds": 4,
+    "primary_horizon": 0,
+    "n_bootstrap": 10000
+  },
+  "primary_ddm": {
+    "seed": 2026,
+    "outer_folds": 5,
+    "max_rl_draws": 300,
+    "prior_strength": 10.0,
+    "n_starts": 6,
+    "l2": 0.0001,
+    "analytic_horizon_ms": 700.0,
+    "rt_min_ms": 100.0,
+    "rt_max_ms": 700.0,
+    "t0_s": 0.03,
+    "dist_min": 0.05,
+    "late_press_handling": "right-censored at 700 ms; late presses remain in the behavioral sequence for subsequent lagged covariates",
+    "invalid_press_handling": "press trials with missing RT or RT < 100 ms excluded from DDM likelihood",
+    "empirical_belief_construction": "computed on complete pre-filter trial sequence before likelihood-specific exclusion/censoring",
+    "core_variants": [
+      "D6",
+      "D14",
+      "D15",
+      "D9"
+    ],
+    "primary_horizon_min_prior_trials": 0,
+    "n_bootstrap": 10000,
+    "code_reference": "code/02_primary_joint_response/joint_response_time_benchmark.py"
+  },
+  "prior_coding": {
+    "primary_strength": 10.0,
+    "strength_sensitivity": [
+      2,
+      5,
+      10,
+      20,
+      50
+    ],
+    "variants": [
+      "D0",
+      "D2",
+      "D10",
+      "D11",
+      "D12",
+      "D13"
+    ],
+    "full_rl_variants": [
+      "D2",
+      "D12",
+      "D13"
+    ],
+    "full_rl_definition": [
+      "policy_probability_p_press",
+      "actor_q_difference",
+      "control_state"
+    ]
+  },
+  "sensitivities": {
+    "repeated_outer_cv": {
+      "n_partitions": 10,
+      "contrast": "D15-D6",
+      "max_rl_draws": 100,
+      "same_participants_in_each_partition": true
+    },
+    "rt_min_ms": [
+      80,
+      100,
+      150
+    ],
+    "analytic_horizon_ms": 700,
+    "late_press_handling": "right-censored",
+    "t0_treatments_ms": [
+      "fixed_30",
+      "range_30_80",
+      "range_0_80"
+    ],
+    "sensitivity_max_rl_draws": 100
+  },
+  "interpretation_constraints": [
+    "predictive comparisons are not causal-mechanism tests",
+    "repeated partitions reuse the same participants and are not independent replications",
+    "700 ms is an analytic horizon unless the task deadline is independently verified"
+  ]
+}
